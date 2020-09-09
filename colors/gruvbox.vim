@@ -169,12 +169,12 @@ call s:Color('bright_blue',    ['#94d9eb', 109])     " 131-165-152
 " afremov bright pink 64
 call s:Color('bright_purple',  ['#de6d95', 175])     " 211-134-155
 " afremov bright dark blue 64
-call s:Color('bright_aqua',    ['#1e6b5c', 108])     " 142-192-124
+call s:Color('bright_aqua',    ['#1e65bc', 108])     " 142-192-124
 " afremov bright orange 64
 call s:Color('bright_orange',  ['#e3430d', 208])     " 254-128-25
 
 " afremov faded red 64
-call s:Color('neutral_red',    ['#51bd11', 124])     " 204-36-29
+call s:Color('neutral_red',    ['#5b1d11', 124])     " 204-36-29
 " afremov faded green 64
 call s:Color('neutral_green',  ['#2e692e', 106])     " 152-151-26
 " afremov faded yellow 64
