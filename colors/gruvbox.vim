@@ -165,11 +165,11 @@ call s:Color('bright_green',   ['#4c7116', 142])     " 184-187-38
 " afremov bright yellow 64
 call s:Color('bright_yellow',  ['#f7c507', 214])     " 250-189-47
 " afremov bright blue 64
-call s:Color('bright_blue',    ['#94d9eb', 109])     " 131-165-152
+call s:Color('bright_aqua',    ['#94d9eb', 109])     " 131-165-152
 " afremov bright pink 64
 call s:Color('bright_purple',  ['#de6d95', 175])     " 211-134-155
 " afremov bright dark blue 64
-call s:Color('bright_aqua',    ['#1e65bc', 108])     " 142-192-124
+call s:Color('bright_blue',    ['#1e65bc', 108])     " 142-192-124
 " afremov bright orange 64
 call s:Color('bright_orange',  ['#e3430d', 208])     " 254-128-25
 
@@ -180,11 +180,11 @@ call s:Color('neutral_green',  ['#2e692e', 106])     " 152-151-26
 " afremov faded yellow 64
 call s:Color('neutral_yellow', ['#f79f05', 172])     " 215-153-33
 " afremov neutral light blue 64
-call s:Color('neutral_blue',   ['#6593d6', 66])      " 69-133-136
+call s:Color('neutral_aqua',   ['#6593d6', 66])      " 69-133-136
 " afremov faded pink 64
 call s:Color('neutral_purple', ['#e05446', 132])     " 177-98-134
 " afremove neutral dark blue
-call s:Color('neutral_aqua',   ['#689d6a', 72])      " 104-157-106
+call s:Color('neutral_blue',   ['#689d6a', 72])      " 104-157-106
 " afremov faded orange 64
 call s:Color('neutral_orange', ['#e36a12', 166])     " 214-93-14
 
