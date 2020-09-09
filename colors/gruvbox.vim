@@ -184,7 +184,7 @@ call s:Color('neutral_aqua',   ['#6593d6', 66])      " 69-133-136
 " afremov faded pink 64
 call s:Color('neutral_purple', ['#e05446', 132])     " 177-98-134
 " afremove neutral dark blue
-call s:Color('neutral_blue',   ['#689d6a', 72])      " 104-157-106
+call s:Color('neutral_blue',   ['#192864', 72])      " 104-157-106
 " afremov faded orange 64
 call s:Color('neutral_orange', ['#e36a12', 166])     " 214-93-14
 
