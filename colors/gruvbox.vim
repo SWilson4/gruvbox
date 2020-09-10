@@ -126,71 +126,72 @@ let g:current_gruvbox_colors = s:gb
 
 " set palette default colors
 call s:Color('dark0_hard',  ['#1d2021', 234])     " 29-32-33
-" afremov black 64
+" afremov dark 5 0
 call s:Color('dark0',       ['#000000', 235])     " 40-40-40
 call s:Color('dark0_soft',  ['#32302f', 236])     " 50-48-47
-" afremov dark grey 64
-call s:Color('dark1',       ['#0a1813', 237])     " 60-56-54
-" afremov grey-green 64
+" afremov dark 5 1
+call s:Color('dark1',       ['#1a1514', 237])     " 60-56-54
+" afremov dark 5 2
 call s:Color('dark2',       ['#193328', 241])     " 102-92-84
-" afremov light grey-green 64
-call s:Color('dark3',       ['#485b54', 239])     " 80-73-69
-" afremov lighter grey-green 64
-call s:Color('dark4',       ['#879e92', 243])     " 124-111-100
-call s:Color('dark4_256',   ['#879e92', 243])     " 124-111-100
+" afremov dark 5 3
+call s:Color('dark3',       ['#3f3214', 239])     " 80-73-69
+" afremov dark 5 4
+call s:Color('dark4',       ['#415b52', 243])     " 124-111-100
+call s:Color('dark4_256',   ['#415b52', 243])     " 124-111-100
 
-" afremov light grey 64
-call s:Color('gray_245',    ['#9aa375', 245])     " 146-131-116
-call s:Color('gray_244',    ['#9aa375', 244])     " 146-131-116
+" afremov grey 1
+call s:Color('gray_245',    ['#879e92', 245])     " 146-131-116
+call s:Color('gray_244',    ['#879e92', 244])     " 146-131-116
 
 call s:Color('light0_hard', ['#f9f5d7', 230])     " 249-245-215
-" afremov white 64
+" afremov light 5 0
 call s:Color('light0',      ['#ffffff', 229])     " 253-244-193
 call s:Color('light0_soft', ['#f2e5bc', 228])     " 242-229-188
-" afremov off-white 64
+" afremov light 5 1
 call s:Color('light1',      ['#e5ddb0', 223])     " 235-219-178
-" afremov very light grey brown 64
-call s:Color('light2',      ['#e8d480', 250])     " 213-196-161
-" afremov very light grey 64
-call s:Color('light3',      ['#c8cbc2', 248])     " 189-174-147
-" afremov light grey brown 64
-call s:Color('light4',      ['#b59c76', 246])     " 168-153-132
-call s:Color('light4_256',  ['#b59c76', 246])     " 168-153-132
+" afremov light 5 2
+call s:Color('light2',      ['#d1aa2f', 250])     " 213-196-161
+" afremov light 5 3
+call s:Color('light3',      ['#bdaa56', 248])     " 189-174-147
+" afremov light 5 4
+call s:Color('light4',      ['#aa9f75', 246])     " 168-153-132
+call s:Color('light4_256',  ['#aa9f75', 246])     " 168-153-132
 
 " bright colours are vibrant foreground colours
-" afremov bright red 64
-call s:Color('bright_red',     ['#a72514', 167])     " 251-73-52
-" afremov bright green 64
-call s:Color('bright_green',   ['#4c7116', 142])     " 184-187-38
-" afremov bright yellow 64
-call s:Color('bright_yellow',  ['#f7c507', 214])     " 250-189-47
-" afremov bright blue 64
-call s:Color('bright_aqua',    ['#94d9eb', 109])     " 131-165-152
-" afremov bright pink 64
-call s:Color('bright_purple',  ['#de6d95', 175])     " 211-134-155
-" afremov bright dark blue 64
-call s:Color('bright_blue',    ['#1e65bc', 108])     " 142-192-124
-" afremov bright orange 64
-call s:Color('bright_orange',  ['#e3430d', 208])     " 254-128-25
+" afremov red pair bright
+call s:Color('bright_red',     ['#bf2c0e', 167])     " 251-73-52
+" afremov green pair bright
+call s:Color('bright_green',   ['#376528', 142])     " 184-187-38
+" afremov yellow pair bright
+call s:Color('bright_yellow',  ['#e9bc27', 214])     " 250-189-47
+" afremov light blue pair bright
+call s:Color('bright_aqua',    ['#7095db', 109])     " 131-165-152
+" afremov purple pair bright
+call s:Color('bright_purple',  ['#d37190', 175])     " 211-134-155
+" afremov dark blue pair bright
+call s:Color('bright_blue',    ['#2859a4', 108])     " 142-192-124
+" afremov orange pair bright
+call s:Color('bright_orange',  ['#ee5314', 208])     " 254-128-25
 
-" afremov faded red 64
-call s:Color('neutral_red',    ['#5b1d11', 124])     " 204-36-29
-" afremov faded green 64
-call s:Color('neutral_green',  ['#2e692e', 106])     " 152-151-26
-" afremov faded yellow 64
-call s:Color('neutral_yellow', ['#f79f05', 172])     " 215-153-33
-" afremov neutral light blue 64
-call s:Color('neutral_aqua',   ['#6593d6', 66])      " 69-133-136
-" afremov faded pink 64
-call s:Color('neutral_purple', ['#e05446', 132])     " 177-98-134
-" afremove neutral dark blue
-call s:Color('neutral_blue',   ['#192864', 72])      " 104-157-106
-" afremov faded orange 64
-call s:Color('neutral_orange', ['#e36a12', 166])     " 214-93-14
+" afremov red pair neutral
+call s:Color('neutral_red',    ['#742d17', 124])     " 204-36-29
+" afremov green pair neutral
+call s:Color('neutral_green',  ['#939c39', 106])     " 152-151-26
+" afremov yellow pair neutral
+call s:Color('neutral_yellow', ['#ef9a11', 172])     " 215-153-33
+" afremov light blue pair neutral
+call s:Color('neutral_aqua',   ['#385d81', 66])      " 69-133-136
+" afremov purple pair neutral
+call s:Color('neutral_purple', ['#774e7b', 132])     " 177-98-134
+" afremove dark blue pair neutral
+call s:Color('neutral_blue',   ['#0e214b', 72])      " 104-157-106
+" afremov orange pair neutral
+call s:Color('neutral_orange', ['#ed7910', 166])     " 214-93-14
 
 call s:Color('faded_red',      ['#9d0006', 88])      " 157-0-6
 call s:Color('faded_green',    ['#79740e', 100])     " 121-116-14
-call s:Color('faded_yellow',   ['#b57614', 136])     " 181-118-20
+" afremov yellow triplet dark
+call s:Color('faded_yellow',   ['#ed7910', 136])     " 181-118-20
 call s:Color('faded_blue',     ['#076678', 24])      " 7-102-120
 call s:Color('faded_purple',   ['#8f3f71', 96])      " 143-63-113
 call s:Color('faded_aqua',     ['#427b58', 65])      " 66-123-88
